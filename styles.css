@@ -1,0 +1,93 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 122vh;
+    background-color: #87CEEB;
+    position: absolute;
+}
+.house {
+    width: 400px;
+    height: 300px;
+    background-color: #FFD700;
+    position: absolute;
+    bottom: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid #8B4513;
+}
+.roof {
+    border-bottom: 100px solid #f02c2c;
+     border-left: 50px solid transparent;
+     border-right: 50px solid transparent;
+     height: 0px;
+     width: 400px;
+    }
+.door {
+        height: 190x;
+        width: 90px;
+        background-color: #1d1b1b;
+        position: absolute;
+        right: 100px;
+      }
+      .tree {
+        width: 50;
+        height: 130;
+        position: absolute;
+        right: 460px;
+        transform: translateY(100%);
+        left: 45px;
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        border-bottom: 190px solid #40922c;   
+    }
+      .oval {
+        height: 75px;
+        width: 115px;
+        background-color: #29771e;
+        border-radius: 50%;
+        right: 60px;
+        transform: translateY(330%);
+        position: absolute
+        ;
+      }
+      .door {
+        height: 125px;
+        width: 65px;
+        transform: translateY(140%);
+        left: 210px;
+        position: absolute;
+        background-color: #644141;
+      }
+      .bottomFoundation {
+        height: 50px;
+        width: 410px;
+        transform: translateY(610%);
+        right: 45px;
+        position: absolute;
+        background-color: #555;
+      }
+      .trapezoid {
+        border-bottom: 50px solid #c4bebe;
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        height: 0;
+        position: absolute;
+        width: 110px;
+        transform: translateY(800%);
+    }
+    .trapezoid {
+        border-bottom: 50px solid #918e8e;
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        height: 0;
+        position: absolute;
+        width: 110px;
+        transform: translateY(800%);
+        right: 165px;
+    }
